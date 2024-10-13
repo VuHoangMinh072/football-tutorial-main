@@ -1,0 +1,51 @@
+{
+  "runtimeVersion": {
+    "policy": "sdkVersion"
+  },
+  "expo": {
+    "name": "Pro-Football",
+    "slug": "pro-football",
+    "version": "2.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp-football",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EB4442"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-asset"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.sampleapp",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.football",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a179f5f2-9ced-4b02-88b2-da63960d0a73"
+      }
+    },
+    "owner": "minhpm"
+  }
+}
